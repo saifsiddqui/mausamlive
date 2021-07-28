@@ -1,38 +1,97 @@
-.App {
-  text-align: center;
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+body{
+  width: 100vw;
+  height: 100vh; 
+  font-family: 'Ubuntu', sans-serif;
+  background-color: aliceblue;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.mainbox{
+  width: 30%;
+  height: 70%;
+  background-color: skyblue;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.first_half{
+  margin-top: 10px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
+
+}
+.input_search{
+  display: flex;
+  width: 60%;
+  height: 30px;
+  margin-top: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+
+.input{
+  border: none;
+  outline: none;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  font-size: 15px;
+  text-transform: capitalize;
+  box-shadow: 5px 0px 10px 5px rgba(0, 0, 0, 0.4);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+.whether{
+  margin-top: 50px;
+  
+}
+.city{
+  margin-top: 15px;
+}
+.second_half{
+  margin-top: 10px;
+  display: flex;
+flex-direction: column;
+  align-items: center;
+}
+.tem{
+  margin-top: 40px;
+}
+.max_min_temp{
+  margin-top: 10px;
+}
+
+.no_data{
+  text-align: center;
+  margin-top: 50px;
+  font-weight: 900;
+  font-size: 25px;
+  color: rgb(250, 0, 0);
+}
+
+@media only screen and (min-width:300px) and (max-width:700px) {
+  .mainbox{
+    width: 80%;
+    height: 70%;
   }
 }
+
+
+
+
+
+
