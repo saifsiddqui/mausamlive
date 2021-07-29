@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/mausamlive/static/css/main.794fc2d4.chunk.css",
-    "main.js": "/mausamlive/static/js/main.726c274b.chunk.js",
-    "main.js.map": "/mausamlive/static/js/main.726c274b.chunk.js.map",
+    "main.css": "/mausamlive/static/css/main.2b9d61c2.chunk.css",
+    "main.js": "/mausamlive/static/js/main.b7877bb4.chunk.js",
+    "main.js.map": "/mausamlive/static/js/main.b7877bb4.chunk.js.map",
     "runtime-main.js": "/mausamlive/static/js/runtime-main.b9bd775f.js",
     "runtime-main.js.map": "/mausamlive/static/js/runtime-main.b9bd775f.js.map",
     "static/js/2.395b22e2.chunk.js": "/mausamlive/static/js/2.395b22e2.chunk.js",
     "static/js/2.395b22e2.chunk.js.map": "/mausamlive/static/js/2.395b22e2.chunk.js.map",
     "index.html": "/mausamlive/index.html",
-    "static/css/main.794fc2d4.chunk.css.map": "/mausamlive/static/css/main.794fc2d4.chunk.css.map",
+    "static/css/main.2b9d61c2.chunk.css.map": "/mausamlive/static/css/main.2b9d61c2.chunk.css.map",
     "static/js/2.395b22e2.chunk.js.LICENSE.txt": "/mausamlive/static/js/2.395b22e2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b9bd775f.js",
     "static/js/2.395b22e2.chunk.js",
-    "static/css/main.794fc2d4.chunk.css",
-    "static/js/main.726c274b.chunk.js"
+    "static/css/main.2b9d61c2.chunk.css",
+    "static/js/main.b7877bb4.chunk.js"
   ]
 }
