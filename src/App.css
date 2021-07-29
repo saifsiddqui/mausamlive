@@ -17,6 +17,11 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  background-image: url("https://media-cldnry.s-nbcnews.com/image/upload/newscms/2019_43/3065061/191023-eco-anxiety-climate-change-main-kh.jpg");
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
 }
 .mainbox{
   width: 30%;
@@ -24,7 +29,7 @@ body{
   border-radius: 30px;
   display: flex;
   flex-direction: column;
-  background: rgba(135, 206, 235, 0.7);
+  background: rgba(135, 206, 235, 0.5);
 }
 .first_half{
   margin-top: 10px;
